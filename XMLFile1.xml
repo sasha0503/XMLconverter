@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataBaseTable>
+	<Book
+	  AUTHOR="Трохимчук"
+	  TITLE="Дискретна математика"
+	  FACULTY="Кібернетика"
+	  DEPARTMENT="ТК"
+	  TYPE="Методичка"
+	  NUMB_PAGES="220"
+	  YEAR="2001">
+	</Book>
+	<Book
+	  AUTHOR="Молодцов"
+	  TITLE="Математичний Аналіз"
+	  FACULTY="Кібернетика"
+	  DEPARTMENT="ОМ"
+	  TYPE="Книга"
+	  NUMB_PAGES="305"
+	  YEAR="2010">
+	</Book>
+	<Book
+	  AUTHOR="Іваненко"
+	  TITLE="Європейське право"
+	  FACULTY="Інститут права"
+	  DEPARTMENT="Інтелектуальна властність"
+	  TYPE="Книга"
+	  NUMB_PAGES="76"
+	  YEAR="2018">
+	</Book>
+</DataBaseTable>
