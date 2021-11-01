@@ -86,7 +86,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть автора");
                         return;
                     }
-                book.author = author_cmb.SelectedItem.ToString();
+                else
+                    book.author = author_cmb.SelectedItem.ToString();
 
                 if (title_cbx.Checked)
                     if (title_cmb.SelectedItem == null)
@@ -94,7 +95,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть назву");
                         return;
                     }
-                book.title = title_cmb.SelectedItem.ToString();
+                else
+                    book.title = title_cmb.SelectedItem.ToString();
 
                 if (year_cbx.Checked)
                     if (year_cmb.SelectedItem == null)
@@ -102,7 +104,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть рік");
                         return;
                     }
-                book.year_range = year_cmb.SelectedItem.ToString();
+                else
+                    book.year_range = year_cmb.SelectedItem.ToString();
 
                 if (type_cbx.Checked)
                     if (type_cmb.SelectedItem == null)
@@ -110,7 +113,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть вид");
                         return;
                     }
-                book.type = type_cmb.SelectedItem.ToString();
+                else
+                    book.type = type_cmb.SelectedItem.ToString();
 
                 if (faculty_cbx.Checked)
                     if (faculty_cmb.SelectedItem == null)
@@ -118,7 +122,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть факультет");
                         return;
                     }
-                book.faculty = faculty_cmb.SelectedItem.ToString();
+                else
+                    book.faculty = faculty_cmb.SelectedItem.ToString();
 
                 if (department_cbx.Checked)
                     if (department_cmb.SelectedItem == null)
@@ -126,7 +131,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть кафедру");
                         return;
                     }
-                book.department = department_cmb.SelectedItem.ToString();
+                else
+                    book.department = department_cmb.SelectedItem.ToString();
 
                 if (numb_pages_cbx.Checked)
                     if (numb_pages_cmb.SelectedItem == null)
@@ -134,7 +140,8 @@ namespace XMLconverter
                         MessageBox.Show("Оберіть обсяг");
                         return;
                     }
-                book.numb_pages_range = numb_pages_cmb.SelectedItem.ToString();
+                else
+                    book.numb_pages_range = numb_pages_cmb.SelectedItem.ToString();
             }
             catch(NullReferenceException ex)
             {
